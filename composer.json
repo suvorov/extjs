@@ -1,6 +1,4 @@
 {
-    "name": "suvorov/test",
-	"require": {
-		"suvorov/extjs": "master"
-	}
+    "name": "extjs/extjs",
+	"type": "lybrary"
 }
