@@ -1,4 +1,7 @@
 {
     "name": "extjs/extjs",
-	"type": "lybrary"
+	"type": "lybrary",
+	"description": "Sencha Ext JS",
+    "keywords": ["extjs", "ext js"],
+    "homepage": "http://www.sencha.com/products/extjs/"
 }
