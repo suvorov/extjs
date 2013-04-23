@@ -1,3 +1,6 @@
 {
-    "name": "suvorov/extjs"
+    "name": "suvorov/test",
+	"require": {
+		"suvorov/extjs": "dev-master"
+	}
 }
