@@ -3,5 +3,6 @@
 	"type": "lybrary",
 	"description": "Sencha Ext JS",
     "keywords": ["extjs", "ext js"],
-    "homepage": "http://www.sencha.com/products/extjs/"
+    "homepage": "http://www.sencha.com/products/extjs/",
+	"license": "MIT"
 }
