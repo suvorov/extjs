@@ -99,12 +99,12 @@ Ext.onReady(function() {
     }
 });
 
-Ext.define("Ext.locale.en.view.View", {
+Ext.define("Ext.locale.it.view.View", {
     override: "Ext.view.View",
     emptyText: ""
 });
 
-Ext.define("Ext.locale.en.grid.plugin.DragDrop", {
+Ext.define("Ext.locale.it.grid.plugin.DragDrop", {
     override: "Ext.grid.plugin.DragDrop",
     dragText: "{0} Righe selezionate"
 });
@@ -114,24 +114,24 @@ Ext.define("Ext.locale.de.TabPanelItem", {
     closeText: "Chiudi scheda"
 });
 
-Ext.define("Ext.locale.en.form.Basic", {
+Ext.define("Ext.locale.it.form.Basic", {
     override: "Ext.form.Basic",
     waitTitle: "Attendere..."
 });
 
-Ext.define("Ext.locale.en.form.field.Base", {
+Ext.define("Ext.locale.it.form.field.Base", {
     override: "Ext.form.field.Base",
 //        invalidText: "The value in this field is invalid"
     invalidText: "Valore non valido"
 });
 
 // changing the msg text below will affect the LoadMask
-Ext.define("Ext.locale.en.view.AbstractView", {
+Ext.define("Ext.locale.it.view.AbstractView", {
     override: "Ext.view.AbstractView",
     msg: "Caricamento..."
 });
 
-Ext.define("Ext.locale.en.picker.Date", {
+Ext.define("Ext.locale.it.picker.Date", {
     override: "Ext.picker.Date",
     todayText: "Oggi",
     minText: "Data precedente alla data minima",
@@ -148,13 +148,13 @@ Ext.define("Ext.locale.en.picker.Date", {
     startDay: 1
 });
 
-Ext.define("Ext.locale.en.picker.Month", {
+Ext.define("Ext.locale.it.picker.Month", {
     override: "Ext.picker.Month",
     okText: "&#160;OK&#160;",
     cancelText: "Annulla"
 });
 
-Ext.define("Ext.locale.en.toolbar.Paging", {
+Ext.define("Ext.locale.it.toolbar.Paging", {
     override: "Ext.PagingToolbar",
     beforePageText: "Pagina",
     afterPageText: "di {0}",
@@ -167,7 +167,7 @@ Ext.define("Ext.locale.en.toolbar.Paging", {
     emptyMsg: 'Non ci sono dati da mostrare'
 });
 
-Ext.define("Ext.locale.en.form.field.Text", {
+Ext.define("Ext.locale.it.form.field.Text", {
     override: "Ext.form.field.Text",
     minLengthText: "La lunghezza minima \u00E8 {0}",
     maxLengthText: "La lunghezza massima \u00E8 {0}",
@@ -176,7 +176,7 @@ Ext.define("Ext.locale.en.form.field.Text", {
     emptyText: null
 });
 
-Ext.define("Ext.locale.en.form.field.Number", {
+Ext.define("Ext.locale.it.form.field.Number", {
     override: "Ext.form.field.Number",
     decimalSeparator: ",",
     decimalPrecision: 2,
@@ -185,7 +185,7 @@ Ext.define("Ext.locale.en.form.field.Number", {
     nanText: "{0} non \u00E8 un valore numerico valido"
 });
 
-Ext.define("Ext.locale.en.form.field.Date", {
+Ext.define("Ext.locale.it.form.field.Date", {
     override: "Ext.form.field.Date",
     disabledDaysText: "Disabilitato",
     disabledDatesText: "Disabilitato",
@@ -197,7 +197,7 @@ Ext.define("Ext.locale.en.form.field.Date", {
     altFormats: "d-m-y|d-m-Y|d/m|d-m|dm|dmy|dmY|d|Y-m-d"
 });
 
-Ext.define("Ext.locale.en.form.field.ComboBox", {
+Ext.define("Ext.locale.it.form.field.ComboBox", {
     override: "Ext.form.field.ComboBox",
     valueNotFoundText: undefined
 }, function() {
@@ -206,7 +206,7 @@ Ext.define("Ext.locale.en.form.field.ComboBox", {
     });
 });
 
-Ext.define("Ext.locale.en.form.field.HtmlEditor", {
+Ext.define("Ext.locale.it.form.field.HtmlEditor", {
     override: "Ext.form.field.HtmlEditor",
     createLinkText: 'Inserire un URL per il link:'
 }, function() {
@@ -286,7 +286,7 @@ Ext.define("Ext.locale.en.form.field.HtmlEditor", {
     });
 });
 
-Ext.define("Ext.locale.en.grid.header.Container", {
+Ext.define("Ext.locale.it.grid.header.Container", {
     override: "Ext.grid.header.Container",
     sortAscText: "Ordinamento crescente",
     sortDescText: "Ordinamento decrescente",
@@ -295,14 +295,14 @@ Ext.define("Ext.locale.en.grid.header.Container", {
     columnsText: "Colonne"
 });
 
-Ext.define("Ext.locale.en.grid.GroupingFeature", {
+Ext.define("Ext.locale.it.grid.GroupingFeature", {
     override: "Ext.grid.GroupingFeature",
     emptyGroupText: '(Nessun dato)',
     groupByText: 'Raggruppa per questo campo',
     showGroupsText: 'Mostra nei gruppi'
 });
 
-Ext.define("Ext.locale.en.grid.PropertyColumnModel", {
+Ext.define("Ext.locale.it.grid.PropertyColumnModel", {
     override: "Ext.grid.PropertyColumnModel",
     nameText: "Name",
     valueText: "Value",
@@ -311,24 +311,24 @@ Ext.define("Ext.locale.en.grid.PropertyColumnModel", {
     falseText: "false"
 });
 
-Ext.define("Ext.locale.en.grid.BooleanColumn", {
+Ext.define("Ext.locale.it.grid.BooleanColumn", {
     override: "Ext.grid.BooleanColumn",
     trueText: "vero",
     falseText: "falso",
     undefinedText: '&#160;'
 });
 
-Ext.define("Ext.locale.en.grid.NumberColumn", {
+Ext.define("Ext.locale.it.grid.NumberColumn", {
     override: "Ext.grid.NumberColumn",
     format: '0.000,00'
 });
 
-Ext.define("Ext.locale.en.grid.DateColumn", {
+Ext.define("Ext.locale.it.grid.DateColumn", {
     override: "Ext.grid.DateColumn",
     format: 'd/m/Y'
 });
 
-Ext.define("Ext.locale.en.form.field.Time", {
+Ext.define("Ext.locale.it.form.field.Time", {
     override: "Ext.form.field.Time",
     minText: "L'Ora deve essere maggiore o uguale a {0}",
     maxText: "L'Ora deve essere mainore o uguale a {0}",
@@ -338,12 +338,12 @@ Ext.define("Ext.locale.en.form.field.Time", {
 //        altFormats: "g:ia|g:iA|g:i a|g:i A|h:i|g:i|H:i|ga|ha|gA|h a|g a|g A|gi|hi|gia|hia|g|H"
 });
 
-Ext.define("Ext.locale.en.form.CheckboxGroup", {
+Ext.define("Ext.locale.it.form.CheckboxGroup", {
     override: "Ext.form.CheckboxGroup",
     blankText: "Devi selezionare almeno un elemento nel gruppo"
 });
 
-Ext.define("Ext.locale.en.form.RadioGroup", {
+Ext.define("Ext.locale.it.form.RadioGroup", {
     override: "Ext.form.RadioGroup",
     blankText: "Devi selezionare un elemento nel gruppo"
 });
